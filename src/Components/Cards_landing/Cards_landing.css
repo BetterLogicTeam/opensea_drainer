@@ -1,0 +1,63 @@
+.main_them_heading{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+   
+    color: rgba(18,18,18)
+}
+
+.main_cardss_page{
+    padding: 40px 10px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .slider_imges{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: end;
+    border-radius: 20px;
+    height: 400px;
+    padding: 40px 10px;
+    background: linear-gradient(rgba(9, 12, 21, 0) 0%, rgba(9, 12, 21, 0.9) 100%), url(../Assets/s.png) center center / cover no-repeat;
+  }
+  .bg_img{
+    background: linear-gradient(rgba(9, 12, 21, 0) 0%, rgba(9, 12, 21, 0.9) 100%), url(../Assets/s2.png) center center / cover no-repeat;
+    
+}
+
+.bg_img1{
+      background: linear-gradient(rgba(9, 12, 21, 0) 0%, rgba(9, 12, 21, 0.9) 100%), url(../Assets/s3.png) center center / cover no-repeat;
+
+  }
+
+  .slider_heaaif{
+    font-size: 28px;
+    text-align: center;
+    color: white;
+  }
+  .slider_para{
+    color: white;
+  }

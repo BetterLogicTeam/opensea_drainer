@@ -1,0 +1,67 @@
+.main_nav_bar {
+    background-color: rgba(8,12,21) !important
+}
+
+
+body {
+       /* background-color: rgba(9,12,21 )!important; */
+}
+
+
+
+.main_logo_part{
+    width: 120px;
+    text-align: left !important;
+}
+
+.main_logo_part img {
+    width: 100%;
+}
+
+.main_site_links {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    margin: 0 15px;
+}
+
+
+.main_site_links:hover{
+    background-color: rgba(18,24,43);
+    border-radius: 10px;
+    padding: 10px ;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(144,160,204) !important
+}
+
+.login_btn {
+   
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    background: rgb(32 ,129 ,226);
+    color: rgba(255,255,255);
+    border: 3px solid rgba(255, 255, 255, 0.4) !important;
+    /* border-color: #ffffff1a; */
+    border-radius: 1.5rem;
+   
+    padding: 10px 30px;
+}
+
+
+
+
+@media only screen and (max-width:600px){
+    .navbar-light .navbar-nav .nav-link{
+        text-align: center;
+    }
+
+    .mb_view{
+        flex-direction: column;
+    }
+    .galll_imgs{
+        height: 50%;
+        aspect-ratio: auto;
+    }
+}

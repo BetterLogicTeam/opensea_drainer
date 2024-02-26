@@ -1,0 +1,62 @@
+.gallar_main_page{
+    padding: 40px 10px;
+}
+
+.gallar_main_page h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+   
+    color: rgba(18,18,18) !important;
+}
+
+.main_gall_inner_bg{
+    background-clip: content-box,border-box;
+    /* box-shadow: 0px 4px 16px rgb(var(--color-black)/8%); */
+    background: white;
+    /* background: linear-gradient(#151928/,#151928); */
+/* box-shadow:  0 0 #0000; */
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border: 1px solid #2081e1;
+    border-radius: 0.5rem;
+    padding: 1.5rem
+}
+
+.main_gall_inner_bg h6 
+{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: rgba(18,18,18);
+    font-weight: 700;
+}
+
+.gall_btn{
+    background:#2081e1 ;
+    border: none;
+    color: white;
+    border-radius: 1.5rem;
+    height: 2.5rem;
+    min-width: 170px;
+}
+
+.main_gall_inner_bg p {
+    color: rgba(84,84,84);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 1.9rem;
+}
+
+.imges_gri {
+    grid-gap: 1.25rem;
+    gap: 1.25rem;
+}
+
+.galll_imgs {
+border-radius: 10px;
+}
+
+.small_pics img {
+height: 110px !important;
+aspect-ratio: auto ;
+border-radius: 10px;
+}

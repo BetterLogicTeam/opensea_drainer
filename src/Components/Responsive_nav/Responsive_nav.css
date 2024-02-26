@@ -1,0 +1,42 @@
+.mobile_logo {
+    width: 80px !important;
+}
+
+.mobile_logo img {
+    width: 100%;
+}
+.mobss {
+    border: none !important;
+}
+
+.close_btn_here {
+    position: absolute;
+    font-size: 30px;
+    top: 10px;
+    right: 10px !important;
+}
+
+.mobss:focus {
+background: transparent !important;
+box-shadow: none !important;
+border: none !important;
+}
+
+.mbli_conc {
+    background-color: rgba(18, 18, 18, 4%);
+    padding: 10px 6px ;
+    width: 100px;
+    gap: 5px;
+    font-weight: bold;
+    border-radius: 8px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.mobile_links {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    margin: 5px 0px;
+}

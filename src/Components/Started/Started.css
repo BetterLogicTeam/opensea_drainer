@@ -1,0 +1,16 @@
+.start_box_head{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    color: rgb(173, 91, 221);
+}
+
+.main_start_page {
+    padding: 40px 10px;
+}
+
+
+.main_start_list li {
+    color: rgba(84,84,84);
+    line-height: 2rem;
+    font-size: 1rem;
+}

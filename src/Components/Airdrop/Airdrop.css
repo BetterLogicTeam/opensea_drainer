@@ -1,0 +1,80 @@
+
+.airp_main {
+  padding: 60px 20px ;
+  margin-top: 4rem;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .arp_conns h1{
+    color: black;
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: capitalize;
+    
+
+  }
+
+  .arp_conns p {
+    color: rgb(84, 84, 84);
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+   .arp_slider .swiper-slide img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .airp_pics{
+    border-radius: 10px;
+    position: relative;
+
+  }
+
+  .aip_conent h1 {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left !important;
+
+  }
+  .aip_conent p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left !important;
+
+  }
+
+  .aip_conent {
+    position: absolute;
+    bottom: 10px;
+    text-align: left;
+  }
+
+
+  @media only screen and (max-width:600px){
+    .arp_slider .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .airp_main{
+      margin-top: 10px !important;
+    }
+  }

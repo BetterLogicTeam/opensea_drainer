@@ -1,0 +1,43 @@
+.footer_logo {
+    width: 100px !important;
+}
+
+.main_footer{
+    padding: 40px 10px ;
+    background-color: rgb(24, 104, 183) !important;
+}
+
+.social_icons {
+    color:  rgba(255,255,255);
+    font-size: 28px;
+}
+
+.social_iCons {
+    margin-top: 4rem;
+}
+
+.left_footer p 
+{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color:white;
+    margin-top: 1rem;
+}
+
+.right_content h5 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: white;
+}
+
+.footer_links {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 7px 0px;
+}
+
+
+.footer_links:hover{
+    color: rgba(255,255,255);
+}
