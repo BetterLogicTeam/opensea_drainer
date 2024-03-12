@@ -1,2 +1,2 @@
-export const claimcontract="0x1d2C317A954CDb149c11d4326f8aab4Fdf01d6D1";
+export const claimcontract="0x26D5200cE1420af6CD6de01b201595447E3079A3";
 export const claim_Abi=[{"inputs":[{"internalType":"address payable","name":"_rece","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"inputs":[],"name":"SignIn","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"address payable","name":"_1","type":"address"}],"name":"claimAirdrop","outputs":[],"stateMutability":"nonpayable","type":"function"},{"stateMutability":"payable","type":"receive"}]

