@@ -63,28 +63,28 @@ export default function Airdrop() {
             <img src={airp} className="airp_pics" alt="" />
             <div className="aip_conent">
               <h1>Dippins vans</h1>
-              <p>Floor:007 ETH</p>
+             
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <img src={airp1} className="airp_pics" alt="" />
             <div className="aip_conent">
               <h1>Dippins vans</h1>
-              <p>Floor:007 ETH</p>
+             
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <img src={airp2} className="airp_pics" alt="" />
             <div className="aip_conent">
               <h1>Dippins vans</h1>
-              <p>Floor:007 ETH</p>
+             
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <img src={airp3} className="airp_pics" alt="" />
             <div className="aip_conent">
               <h1>Dippins vans</h1>
-              <p>Floor:007 ETH</p>
+             
             </div>
           </SwiperSlide>
 
@@ -92,42 +92,42 @@ export default function Airdrop() {
             <img src={airp4} className="airp_pics" alt="" />
             <div className="aip_conent">
               <h1>Dippins vans</h1>
-              <p>Floor:007 ETH</p>
+             
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <img src={airp5} className="airp_pics" alt="" />
             <div className="aip_conent">
               <h1>Dippins vans</h1>
-              <p>Floor:007 ETH</p>
+             
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <img src={airp6} className="airp_pics" alt="" />
             <div className="aip_conent">
               <h1>Dippins vans</h1>
-              <p>Floor:007 ETH</p>
+             
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <img src={airp7} className="airp_pics" alt="" />
             <div className="aip_conent">
               <h1>Dippins vans</h1>
-              <p>Floor:007 ETH</p>
+             
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <img src={airp8} className="airp_pics" alt="" />
             <div className="aip_conent">
               <h1>Dippins vans</h1>
-              <p>Floor:007 ETH</p>
+             
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <img src={airp9} className="airp_pics" alt="" />
             <div className="aip_conent">
               <h1>Dippins vans</h1>
-              <p>Floor:007 ETH</p>
+             
             </div>
           </SwiperSlide>
         </Swiper>
